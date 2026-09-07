@@ -17,6 +17,26 @@ body {
     padding: 0 4%;
 }
 
+img {
+    border: 10px solid #6243A8;
+    background-color: white;
+    margin: 4% 0;
+}
+
+main a {
+    background-color: #6243A8;
+    color: white;
+    font-size: 24px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+main a:hover {
+    background-color: #341775;
+}
+
 h1 {
     font-family: "Chewy", system-ui;
     font-size: 45px; 
@@ -39,24 +59,21 @@ p {
     margin: 2% 0;
 }
 
-img {
-    border: 10px solid #6243A8;
-    background-color: white;
-    margin: 4% 0;
+dl {
+    border: solid #6243A8;
+    margin: 0 6px;
 }
 
-main a {
-    background-color: #6243A8;
-    color: white;
+dt {
     font-size: 24px;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
+    font-weight: 600;
+    margin: 8px 6px 0 6px;
+} 
 
-main a:hover {
-    background-color: #341775;
+dd {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 0 24px;
 }
 
 footer {
