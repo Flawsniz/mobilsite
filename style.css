@@ -4,6 +4,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+
 img {
 width: 100%;
 height: auto;
@@ -12,41 +13,57 @@ display: block;
 /*************** Reset *********************/
 
 body {
-    background-color: rgb(240, 239, 255);
-}
-
-header {
-    background-color: #00b4d8;
-}
-
-main {
-    padding: 12px;
-}
-
-main img {
-    padding: 5px 0;
+    background-color: #DBCCFF;
+    padding: 0 4%;
 }
 
 h1 {
-    font-family: "Inter", sans-serif;
-    font-size: 40px;
-    padding: 6px 12px;
+    font-family: "Chewy", system-ui;
+    font-size: 45px; 
+    margin: 2% 0; 
 }
 
 h2 {
-    font-family: "Inter", sans-serif;
+    font-family: "Patrick Hand", cursive;
+    font-size: 32px;
+    margin: 0 2%;
 }
 
 h3 {
-    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    margin: 2% 4%;
 }
 
 p {
-    font-family: "Inter", sans-serif;
-    padding: 10px 2px;
-    word-spacing: 3px;
+    font-size: 20px;
+    margin: 2% 0;
+}
+
+img {
+    border: 10px solid #6243A8;
+    background-color: white;
+    margin: 4% 0;
+}
+
+main a {
+    background-color: #6243A8;
+    color: white;
+    font-size: 24px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+main a:hover {
+    background-color: #341775;
 }
 
 footer {
-    background-color: #90e0ef;
+    position: absolute;
+    background-color: #341775;
+    color: white;
+    text-align: center;
+    left: 0;
+    right: 0;
 }
